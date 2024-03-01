@@ -112,6 +112,9 @@ $ git config —global user.email “youremail”**`
 `$  git checkout -b [分支名稱]**
 **$ git switch -c[分支名稱]**`
 
-7.修改分支名
-git branch -M**`[新分支名稱]`**
-git branch -M**`[新分支名稱]`**
+**7.修改分支名
+**git branch -M**`[新分支名稱]`**
+**git branch -M**`[新分支名稱]`**
+
+
+**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
