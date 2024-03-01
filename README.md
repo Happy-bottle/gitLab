@@ -117,4 +117,5 @@ $ git config —global user.email “youremail”**`
 **git branch -M**`[新分支名稱]`**
 
 
-**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
+**重設<別名>url
+https://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@github.com/Happy-bottle/gitLab.git
