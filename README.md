@@ -116,6 +116,56 @@ $ git config —global user.email “youremail”**`
 **git branch -M**`[新分支名稱]`**
 **git branch -M**`[新分支名稱]`**
 
+===============================================
+
+設定遠端儲存區url
+git remote add <別名> <url>
+
+貼上
+shfit +insert
+
+檢視remote 路徑
+git remote -v
+
+推上去遠端儲存區
+git push <別名> <分支>
+
+遠端儲存區
+建議都要建立README.md介紹該專案內容
+紀錄git忽略的檔案
+.gitignore 
+https://www.toptal.com/developers/gitignore
+可以使用該網站生成.gitignore頁面
+
+拉下遠端儲存區專案
+git pull <別名> <分支>
+
+移除本機的遠端url位置
+git remote remove <別名>
+=============================================
+多人協作
+
+1.設定github 專案鑰匙
+右上角> settings > developer settings > personal access tokens > tokens(classic)
 
 **重設<別名>url
 https://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@github.com/Happy-bottle/gitLab.git
+
+2.發PR
+	1.fork 原始專案
+	2.git clone url
+	3.修改你的分支下的檔案
+	4.push 回你的專案
+	5.發PR給原專案作者
+	6.原作確認PR
+	
+2-1.跟上fork專案
+1. 砍掉重練
+	重新fork
+2. 跟上游同步
+設定原作遠端
+git remote add upstream url
+抓取原作專案內容
+git fetch upstream/main
+git merge upstream/main
+推回自己專案
