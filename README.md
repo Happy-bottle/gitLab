@@ -169,5 +169,45 @@ git remote add upstream url
 git fetch upstream/main
 git merge upstream/main
 推回自己專案
+git push oring <branch name>
 =============================================
 
+git 圖形化介面
+
+1. git gui
+2. github desktop
+3. sourcetree
+4. vscode + git graph
+5. 開發工具內建
+
+=================================================
+
+Maven專案
+控管jar檔案方式
+
+1.第一種方式 project 轉maven專案
+專案右鍵 > configure > convert to maven project
+ groudId 習慣會網址反過來打
+ >finish
+ 生成pom.xml
+ project of model
+ 
+ https://mvnrepository.com/
+ 
+ pom檔案下
+ 新增該標籤
+ <dependencies> 
+	加入線上的jar檔案標籤
+	...
+ </dependencies>
+ 
+2.直接新增maven專案
+打勾create a simple project
+
+貼完線上jar檔案標籤後 等專案下載完專案
+更新你的專案
+1.專案右鍵 > maven > update project > 
+勾選你要更新的專案 
+底下force project打勾
+
+2.專案右鍵>java ee tools> update lib
